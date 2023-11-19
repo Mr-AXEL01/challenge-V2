@@ -8,9 +8,9 @@ body{
 }
 form{
     position: absolute;
-    top: 30%;
-    right: 5%;
-    width: 90%;
+    top: 20%;
+    right: 29%;
+    width: 40%;
     padding: 20px;
     background-color: #000;
     opacity: rgba(135, 129, 129, 0.855);
@@ -27,9 +27,25 @@ form{
     width: 70%;
     height: 70px;
     border-radius: 40px;
+    font-size: 30px;
 }
 label{
     margin: 10px;
     font-size: 26px;
     color: #fff;
+}
+.button{
+    font-size: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: green;
+    transition: ease-in-out 0.2s;
+}
+.button:hover{
+    font-weight: 500;
+    background-color: rgb(16, 220, 16);
+    transform:scale(1.1)
 }
